@@ -1,12 +1,13 @@
 # Voice Agent - Your Everyday AI Assistant
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/YOUR_IMAGE_ID" width="300" alt="Voice Agent App Screenshot">
+  <img src="https://raw.githubusercontent.com/pathakmukul/somethin/main/IMG_8551.PNG" width="250" alt="Voice Agent App Screenshot">
 </p>
 
 <p align="center">
+  <strong>Watch Demo:</strong><br>
   <a href="https://youtu.be/DRFrmCRjPJw">
-    <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo on YouTube">
+    <img src="https://img.youtube.com/vi/DRFrmCRjPJw/0.jpg" width="400" alt="Demo Video">
   </a>
 </p>
 
