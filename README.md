@@ -1,7 +1,10 @@
-# Voice Agent - Your Everyday AI Assistant
+# Somethin' - The AI That Actually Does Somethin'
+
+**Stop asking Siri the same question 5 times.** Somethin' is the iOS voice assistant that actually understands you the first time and gets stuff done. Built in Swift, powered by GPT-4, and integrated with Dedalus MCP for real intelligence.
+
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pathakmukul/somethin/main/IMG_8551.PNG" width="250" alt="Voice Agent App Screenshot">
+  <img src="https://raw.githubusercontent.com/pathakmukul/somethin/main/IMG_8551.PNG" width="250" alt="Somethin' App Screenshot">
 </p>
 
 <p align="center">
@@ -10,8 +13,6 @@
     <img src="https://img.youtube.com/vi/DRFrmCRjPJw/0.jpg" width="400" alt="Demo Video">
   </a>
 </p>
-
-Built in Swift for iOS. A hands-free AI assistant that works anywhere - while driving, at the gym, cooking, or on the go.
 
 ## Core Features
 
@@ -40,6 +41,22 @@ The assistant can compile information from multiple sources and:
 - Save as a structured note
 - Create action items
 - Generate reports
+
+### 🛍️ **Shopping Assistant**
+- **Product Search**: "Find iPhone 15 prices" or "Search for Nike shoes"
+- **Price Comparison**: Real-time pricing from multiple retailers
+- **Google Shopping Integration**: Access to millions of products
+- **Voice-Guided Shopping**: Get product details spoken back to you
+
+### 💬 **Message Reading (Beta)**
+- **Notification Access**: Read recent messages from notification center
+- **Sender Filtering**: "Read messages from John"
+- **Privacy-Focused**: Only accesses notifications you permit
+
+### 🧠 **Personalization**
+- **User Profiles**: Remembers your name and preferences
+- **Contact Management**: Knows your contacts and nicknames
+- **Custom Summaries**: Personalized context for better responses
 
 *Also includes local device control for photos and music (in development)*
 
@@ -141,6 +158,23 @@ convex/               - Backend for note storage and sync
 dedalus-api/          - Python backend for MCP execution
 └── api/index.py      - Dedalus runner with all MCP servers
 ```
+
+## 🚀 Unique Selling Points
+
+1. **Hybrid Architecture**: Combines local device capabilities with cloud AI
+2. **Tool Flexibility**: Easy to add new capabilities without app updates
+3. **Real-Time Sync**: Instant synchronization across features
+4. **Native Performance**: Optimized for iOS with SwiftUI
+5. **Extensible Platform**: Plugin-ready architecture for future features
+
+## 🔮 Future Roadmap
+
+- Calendar integration
+- Smart home control
+- Multi-language support
+- Offline mode for basic features
+- Widget support
+- Apple Watch companion app
 
 ## Note on Security
 
