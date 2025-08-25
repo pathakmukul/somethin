@@ -99,3 +99,13 @@ ENV/
 # Private configuration files
 config.private.js
 settings.private.json
+
+# Setup scripts with API keys
+SETUP.md
+VAPI_TOOLS.json
+*_assistant.js
+*_assistant.sh
+create_vapi_tools.sh
+fix_*.js
+add_*.js
+update_*.js
