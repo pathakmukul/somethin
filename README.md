@@ -180,6 +180,12 @@ dedalus-api/          - Python backend for MCP execution
 
 All API keys are stored in `.env` and never committed to the repository. The app uses iOS Keychain for secure storage on device.
 
+## License
+
+Copyright © 2024 Mukul Pathak. All Rights Reserved.
+
+This software is proprietary and confidential. No part of this software may be used, copied, modified, or distributed without explicit written permission from the copyright holder.
+
 ---
 
 Built for YC Hacks. Demonstrates practical integration of Dedalus MCP runner for real-world voice assistant applications.
