@@ -1,5 +1,15 @@
 # Voice Agent - Your Everyday AI Assistant
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/YOUR_IMAGE_ID" width="300" alt="Voice Agent App Screenshot">
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/DRFrmCRjPJw">
+    <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo on YouTube">
+  </a>
+</p>
+
 Built in Swift for iOS. A hands-free AI assistant that works anywhere - while driving, at the gym, cooking, or on the go.
 
 ## Core Features
