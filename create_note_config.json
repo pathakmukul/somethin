@@ -1,0 +1,18 @@
+{
+  "name": "create_note",
+  "description": "Create a note on the device",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "The title of the note"
+      },
+      "content": {
+        "type": "string",
+        "description": "The content of the note"
+      }
+    },
+    "required": ["content"]
+  }
+}

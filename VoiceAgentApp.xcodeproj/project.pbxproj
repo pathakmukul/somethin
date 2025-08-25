@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505714C03EEB49B2E85FC1CE /* VoiceAgentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933CF694899F9A4E8F9BE460 /* VoiceAgentView.swift */; };
+		5EB719A9F5DB4E6CAA10EFB2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8994F92C057F2C9F531784F /* OnboardingView.swift */; };
+		694451381B7E52CE036F49A3 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1064F49BC7D9F6CED8D19066 /* VideoPlayerView.swift */; };
+		71B0BF843C5BBD33D99C0522 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208F99EC8E07D7E7FFC0A38 /* LoginView.swift */; };
+		7DDF98D15C83B1CCBAA96B4D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B0D211847DBD8AA27F3B9 /* SettingsView.swift */; };
+		8D1234561234567890ABCDEF /* VoiceAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1234551234567890ABCDEF /* VoiceAgentApp.swift */; };
+		8D1234581234567890ABCDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1234571234567890ABCDEF /* ContentView.swift */; };
+		8D12345A1234567890ABCDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1234591234567890ABCDEF /* Assets.xcassets */; };
+		8D12345D1234567890ABCDEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D12345C1234567890ABCDEF /* Preview Assets.xcassets */; };
+		8D1234641234567890ABCDEF /* VoiceAgentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1234631234567890ABCDEF /* VoiceAgentService.swift */; };
+		8D1234661234567890ABCDEF /* PhotoSearchTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1234671234567890ABCDEF /* PhotoSearchTestView.swift */; };
+		8D1234681234567890ABCDEF /* PhotoSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1234691234567890ABCDEF /* PhotoSearchService.swift */; };
+		8D12346A1234567890ABCDEF /* SystemServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12346B1234567890ABCDEF /* SystemServicesManager.swift */; };
+		8D12346D1234567890ABCDEF /* PhotoSearchServiceEnhanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D12346E1234567890ABCDEF /* PhotoSearchServiceEnhanced.swift */; };
+		9190D2C2E346602A59B45A9D /* Talk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8B88D70F82938054777FEB28 /* Talk.mp4 */; };
+		B536A4A62E5A141C00AF9C44 /* Vapi in Frameworks */ = {isa = PBXBuildFile; productRef = B536A4A52E5A141C00AF9C44 /* Vapi */; };
+		B536A4AA2E5A16C600AF9C44 /* ConvexMobile in Frameworks */ = {isa = PBXBuildFile; productRef = B536A4A92E5A16C600AF9C44 /* ConvexMobile */; };
+		BB7AA394C04F3307E066B8C6 /* idle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8B085875C84D723DC392055A /* idle.mp4 */; };
+		F24770EA45E316DB58110D36 /* LocalToolExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212675BFDBF90C9C240D371 /* LocalToolExecutor.swift */; };
+		FCDA86D85C846B951406E1D1 /* VAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530EF0CF0ACADA5A88C2C629 /* VAPIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1064F49BC7D9F6CED8D19066 /* VideoPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		3208F99EC8E07D7E7FFC0A38 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		530EF0CF0ACADA5A88C2C629 /* VAPIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VAPIService.swift; sourceTree = "<group>"; };
+		7212675BFDBF90C9C240D371 /* LocalToolExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalToolExecutor.swift; sourceTree = "<group>"; };
+		8B085875C84D723DC392055A /* idle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = idle.mp4; sourceTree = "<group>"; };
+		8B88D70F82938054777FEB28 /* Talk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Talk.mp4; sourceTree = "<group>"; };
+		8D1234521234567890ABCDEF /* VoiceAgentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceAgentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1234551234567890ABCDEF /* VoiceAgentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAgentApp.swift; sourceTree = "<group>"; };
+		8D1234571234567890ABCDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D1234591234567890ABCDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D12345C1234567890ABCDEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D1234631234567890ABCDEF /* VoiceAgentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAgentService.swift; sourceTree = "<group>"; };
+		8D1234651234567890ABCDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1234671234567890ABCDEF /* PhotoSearchTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchTestView.swift; sourceTree = "<group>"; };
+		8D1234691234567890ABCDEF /* PhotoSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchService.swift; sourceTree = "<group>"; };
+		8D12346B1234567890ABCDEF /* SystemServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemServicesManager.swift; sourceTree = "<group>"; };
+		8D12346E1234567890ABCDEF /* PhotoSearchServiceEnhanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchServiceEnhanced.swift; sourceTree = "<group>"; };
+		933CF694899F9A4E8F9BE460 /* VoiceAgentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceAgentView.swift; sourceTree = "<group>"; };
+		A46B0D211847DBD8AA27F3B9 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B8994F92C057F2C9F531784F /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D12344F1234567890ABCDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B536A4A62E5A141C00AF9C44 /* Vapi in Frameworks */,
+				B536A4AA2E5A16C600AF9C44 /* ConvexMobile in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1234491234567890ABCDEF = {
+			isa = PBXGroup;
+			children = (
+				8D1234541234567890ABCDEF /* VoiceAgentApp */,
+				8D1234531234567890ABCDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1234531234567890ABCDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1234521234567890ABCDEF /* VoiceAgentApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1234541234567890ABCDEF /* VoiceAgentApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D1234551234567890ABCDEF /* VoiceAgentApp.swift */,
+				8D1234571234567890ABCDEF /* ContentView.swift */,
+				8D1234671234567890ABCDEF /* PhotoSearchTestView.swift */,
+				8D1234631234567890ABCDEF /* VoiceAgentService.swift */,
+				8D12346C1234567890ABCDEF /* Services */,
+				8D1234591234567890ABCDEF /* Assets.xcassets */,
+				8D1234651234567890ABCDEF /* Info.plist */,
+				8D12345B1234567890ABCDEF /* Preview Content */,
+				933CF694899F9A4E8F9BE460 /* VoiceAgentView.swift */,
+				1064F49BC7D9F6CED8D19066 /* VideoPlayerView.swift */,
+				8B085875C84D723DC392055A /* idle.mp4 */,
+				8B88D70F82938054777FEB28 /* Talk.mp4 */,
+				3208F99EC8E07D7E7FFC0A38 /* LoginView.swift */,
+				B8994F92C057F2C9F531784F /* OnboardingView.swift */,
+				A46B0D211847DBD8AA27F3B9 /* SettingsView.swift */,
+			);
+			path = VoiceAgentApp;
+			sourceTree = "<group>";
+		};
+		8D12345B1234567890ABCDEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D12345C1234567890ABCDEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D12346C1234567890ABCDEF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D1234691234567890ABCDEF /* PhotoSearchService.swift */,
+				8D12346E1234567890ABCDEF /* PhotoSearchServiceEnhanced.swift */,
+				8D12346B1234567890ABCDEF /* SystemServicesManager.swift */,
+				530EF0CF0ACADA5A88C2C629 /* VAPIService.swift */,
+				7212675BFDBF90C9C240D371 /* LocalToolExecutor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1234511234567890ABCDEF /* VoiceAgentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1234601234567890ABCDEF /* Build configuration list for PBXNativeTarget "VoiceAgentApp" */;
+			buildPhases = (
+				8D12344E1234567890ABCDEF /* Sources */,
+				8D12344F1234567890ABCDEF /* Frameworks */,
+				8D1234501234567890ABCDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceAgentApp;
+			productName = VoiceAgentApp;
+			productReference = 8D1234521234567890ABCDEF /* VoiceAgentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D12344A1234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8D1234511234567890ABCDEF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D12344D1234567890ABCDEF /* Build configuration list for PBXProject "VoiceAgentApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D1234491234567890ABCDEF;
+			packageReferences = (
+				B536A4A42E5A141C00AF9C44 /* XCRemoteSwiftPackageReference "client-sdk-ios" */,
+				B536A4A82E5A16C600AF9C44 /* XCRemoteSwiftPackageReference "convex-swift" */,
+			);
+			productRefGroup = 8D1234531234567890ABCDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1234511234567890ABCDEF /* VoiceAgentApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1234501234567890ABCDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D12345D1234567890ABCDEF /* Preview Assets.xcassets in Resources */,
+				8D12345A1234567890ABCDEF /* Assets.xcassets in Resources */,
+				BB7AA394C04F3307E066B8C6 /* idle.mp4 in Resources */,
+				9190D2C2E346602A59B45A9D /* Talk.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D12344E1234567890ABCDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1234581234567890ABCDEF /* ContentView.swift in Sources */,
+				8D1234641234567890ABCDEF /* VoiceAgentService.swift in Sources */,
+				8D1234661234567890ABCDEF /* PhotoSearchTestView.swift in Sources */,
+				8D1234681234567890ABCDEF /* PhotoSearchService.swift in Sources */,
+				8D12346D1234567890ABCDEF /* PhotoSearchServiceEnhanced.swift in Sources */,
+				8D12346A1234567890ABCDEF /* SystemServicesManager.swift in Sources */,
+				8D1234561234567890ABCDEF /* VoiceAgentApp.swift in Sources */,
+				505714C03EEB49B2E85FC1CE /* VoiceAgentView.swift in Sources */,
+				FCDA86D85C846B951406E1D1 /* VAPIService.swift in Sources */,
+				F24770EA45E316DB58110D36 /* LocalToolExecutor.swift in Sources */,
+				694451381B7E52CE036F49A3 /* VideoPlayerView.swift in Sources */,
+				71B0BF843C5BBD33D99C0522 /* LoginView.swift in Sources */,
+				5EB719A9F5DB4E6CAA10EFB2 /* OnboardingView.swift in Sources */,
+				7DDF98D15C83B1CCBAA96B4D /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D12345E1234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D12345F1234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D1234611234567890ABCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceAgentApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ED3KXWPX2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceAgentApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to enable voice interactions with the AI agent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VoiceAgentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D1234621234567890ABCDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoiceAgentApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ED3KXWPX2C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceAgentApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to enable voice interactions with the AI agent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VoiceAgentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D12344D1234567890ABCDEF /* Build configuration list for PBXProject "VoiceAgentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D12345E1234567890ABCDEF /* Debug */,
+				8D12345F1234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1234601234567890ABCDEF /* Build configuration list for PBXNativeTarget "VoiceAgentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1234611234567890ABCDEF /* Debug */,
+				8D1234621234567890ABCDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B536A4A42E5A141C00AF9C44 /* XCRemoteSwiftPackageReference "client-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VapiAI/client-sdk-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B536A4A82E5A16C600AF9C44 /* XCRemoteSwiftPackageReference "convex-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/get-convex/convex-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B536A4A52E5A141C00AF9C44 /* Vapi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B536A4A42E5A141C00AF9C44 /* XCRemoteSwiftPackageReference "client-sdk-ios" */;
+			productName = Vapi;
+		};
+		B536A4A92E5A16C600AF9C44 /* ConvexMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B536A4A82E5A16C600AF9C44 /* XCRemoteSwiftPackageReference "convex-swift" */;
+			productName = ConvexMobile;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D12344A1234567890ABCDEF /* Project object */;
+}

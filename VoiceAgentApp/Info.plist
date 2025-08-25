@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access to enable voice interactions with the AI agent.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs speech recognition to convert your voice to text for the AI agent.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs photo library access to search and display your photos based on voice commands.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>This app needs notification access to read your message notifications when requested.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>This app can access reminders to help manage your tasks.</string>
+</dict>
+</plist>

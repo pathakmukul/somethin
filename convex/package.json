@@ -1,0 +1,16 @@
+{
+  "name": "voice-agent-convex",
+  "version": "1.0.0",
+  "description": "Convex backend for Voice Agent iOS app",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

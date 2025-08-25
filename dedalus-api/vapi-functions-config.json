@@ -1,0 +1,68 @@
+{
+  "web_search": {
+    "name": "web_search",
+    "description": "Search the web for information, news, facts, or any topic",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "request": {
+          "type": "string",
+          "description": "What to search for on the web"
+        }
+      },
+      "required": ["request"]
+    }
+  },
+  "send_email": {
+    "name": "send_email",
+    "description": "Send an email to someone",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "request": {
+          "type": "string",
+          "description": "Email details like 'Send email to john@example.com with subject Meeting Tomorrow about our project discussion'"
+        }
+      },
+      "required": ["request"]
+    }
+  },
+  "get_weather": {
+    "name": "get_weather",
+    "description": "Get current weather information for any location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "request": {
+          "type": "string",
+          "description": "Location to get weather for, e.g., 'weather in San Francisco' or 'what's the weather in New York'"
+        }
+      },
+      "required": ["request"]
+    }
+  },
+  "get_datetime": {
+    "name": "get_datetime",
+    "description": "Get the current date and time for any timezone",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "timezone": {
+          "type": "string",
+          "description": "Timezone like 'America/New_York', 'Europe/London', 'Asia/Tokyo', etc. Default is UTC"
+        }
+      },
+      "required": []
+    }
+  },
+  "email_assistant": {
+    "type": "object",
+    "properties": {
+      "request": {
+        "type": "string",
+        "description": "Email operation to perform. Examples: 'Send email to john@example.com about the meeting tomorrow', 'Check my latest emails', 'Search for emails from Sarah', 'Read unread emails', 'Find emails about the project'"
+      }
+    },
+    "required": ["request"]
+  }
+}
